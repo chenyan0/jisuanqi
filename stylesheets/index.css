@@ -1,0 +1,205 @@
+.clear{
+	clear: both;
+}
+
+body{
+	background-image: url('../imgs/56458PICSZx_1024.jpg');
+	background-size: cover;
+}
+.ren{
+	width: 250px;
+	height: 350px;
+	background-image: url('../imgs/Businessman_Vector_Character_Set.png');
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.caculator{
+	width:350px;
+	height: 600px; 
+	background-color: #EFEFEF;
+	margin: 50px 100px 0 100px;
+	float: left;
+	position: relative;
+	box-shadow: 2px 2px 2px black,-2px 0px 2px black;
+}
+.top{
+	width: 350px;
+	height: 20px;
+	background-color: black;
+	position: absolute;
+	line-height: 20px;
+	color: white;
+	text-align: center;
+	float:left;
+	left: 0;
+	top: 0;
+}
+.screen{
+	width: 300px;
+	height: 80px;
+	box-shadow: 1px 1px 10px #8A8A8A inset;
+	background-color:#DCE6B2;
+	border: 2px solid black;
+	border-radius: 5px;
+	position: absolute;
+	margin: 0 auto;
+	top :70px;
+	left: 25px;
+}
+#memory{
+	position: absolute;
+	left: 3px;
+	bottom: 2px;
+	font-size: 20px;
+	display: none;
+}
+.zi{
+	width: 300px;
+	height: 80px;
+	text-align: right;
+	overflow: hidden;
+	line-height: 80px;
+	font-size: 3em;
+
+}
+.but{
+	width: 315px;
+	position: relative;
+	left: 25px;
+	top: 180px;
+}
+.button{
+	width: 65px;
+	height: 50px;
+	background-color:#10556F;
+	float: left;
+	margin-top: 10px;
+	margin-right: 13px;
+	border-radius: 10px;
+	color:white;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	cursor: pointer;
+	box-shadow:2px 2px 15px #FFFFFF inset;
+	-webkit-transition:all .1s ease;
+}
+.m{
+	background-color:#141414;
+	box-shadow: 2px 2px 15px #FFFFFF inset; 
+}
+
+.num{
+	color:white;
+	box-shadow:2px 2px 15px #FFFFFF inset;
+	background-color:#8E0404;
+	
+}
+.chang{
+	width: 143px;
+}
+.gao{
+	height: 110px;
+	float: right;
+	line-height: 110px;
+	background-color:#141414;
+	box-shadow: 2px 2px 15px #FFFFFF inset;
+}
+
+
+
+
+.caculator2{
+	width: 600px;
+	height: 350px;
+	background-color:#EFEFEF;
+	float: left;
+	margin: 150px auto 0;
+	position: relative;
+	box-shadow: 2px 2px 2px black,-2px 0px 2px black;
+}
+.top2{
+	width: 600px;
+	height: 20px;
+	background-color: black;
+	position: absolute;
+	line-height: 20px;
+	color: white;
+	text-align: center;
+	left: 0;
+	top: 0;
+}
+.screen2{
+	width: 550px;
+	height: 60px;
+	box-shadow: 1px 1px 10px #8A8A8A inset;
+	background-color:#DCE6B2;
+	border: 2px solid black;
+	border-radius: 5px;
+	position: absolute;
+	top: 30px;
+	left: 25px;
+}
+#memory2{
+	position: absolute;
+	left: 3px;
+	bottom: 2px;
+	font-size: 20px;
+	display: none;
+}
+.zi2{
+	width: 550px;
+	height: 60px;
+	text-align: right;
+	line-height:60px;
+	font-size: 3em;
+	overflow: hidden;
+
+}
+.but2{
+	width: 570px;
+	/*border: 1px solid red;*/
+	position: relative;
+	left: 25px;
+	top: 100px;
+}
+.button2{
+	width: 55px;
+	height: 35px;
+	background-color:#10556F;
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 16px;
+	border-radius: 5px;
+	color:white;
+	text-align: center;
+	line-height:35px;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 2px  2px 10px #FFFFFF inset;
+}
+.m2{
+	background-color:#141414;
+	box-shadow: 2px  2px 10px #FFFFFF inset;
+	color:white;
+}
+
+.ops{
+	background-color:#8E0404;
+	color:white;
+}
+
+.gao2{
+	height: 75px;
+	float: right;
+	line-height: 75px;
+	background-color:#141414;
+	box-shadow: 2px  2px 10px #FFFFFF inset;
+	color: white;
+}
+.chang2{
+	width: 125px;
+}
+
